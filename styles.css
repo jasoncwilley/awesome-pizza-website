@@ -5,10 +5,22 @@ body {
 h1, h2 { 
 	font-family: Russo One, Helvetica, Arial;
 	clear: both;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 36px;
 }
 
+h5 { 
+	font-family: Russo One, Helvetica, Arial;
+	clear: both;
+	text-align: left;
+	padding-top: 25px;
+	font-size: 24px
+}
+
+
 p, li, th, td {
-	font-family: Helvetica, Arial;
+	font-family: Russo One, Helvetica, Arial;
 	font-size: 18px;
 }
 
@@ -22,6 +34,7 @@ a:hover, a:active {
 }
 
 ul.nav  {
+	font-family:  Russo Helvetica, Arial;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -29,6 +42,7 @@ ul.nav  {
 }
 
 ul.nav li {
+	font-family:  Russo Helvetica, Arial;
 	float: left;
 	text-align: center;
 }
@@ -46,18 +60,33 @@ ul.nav a:hover, ul.nav a:active {
 	background-color: red;
 }
 
-img {
-	margin:22px 10px 10px 0px;
-	float: left;
-}
 
 div.container {
 	width: 700px;
 	margin: auto;
 }
+div.container1 {
+	text-align-last: 
+	margin: auto;
+	padding-top: 65px;
+}
 
+div.container3 {
+	text-align-last:  
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+div.class2 {
+	padding: 10px;
+	margin: auto;
+}
 table {
 	width: 100%;
+}
+div.container4 {
+	text-align-last: 
+	padding-top: 5px;
 }
 
 table td {
@@ -65,3 +94,13 @@ table td {
 	border-style: solid;
 	border-color: black;
 }
+div.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
+div.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+div.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+div.tg .tg-0rnh{background-color:#D2E4FC;font-weight:bold;text-align:center}
+div.tg .tg-baqh{text-align:center;vertical-align:top}
+div.tg .tg-jqko{background-color:#D2E4FC;font-weight:bold;font-size:22px;text-align:center}
+div.tg .tg-ximz{background-color:#D2E4FC;font-weight:bold;font-size:22px;font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif !important;;text-align:center}
+div.tg .tg-fbrz{font-weight:bold;font-size:20px;text-align:center;vertical-align:top}
+div.tg .tg-hgcj{font-weight:bold;text-align:center}
+div.tg .tg-n3vj{background-color:#D2E4FC;font-weight:bold;font-size:20px;text-align:center;vertical-align:top}
